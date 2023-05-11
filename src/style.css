@@ -1,0 +1,38 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+    color-scheme: dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+fieldset {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 60% !important;
+    border: rgba(100, 100, 100, .7) solid 1px;
+    border-radius: .5rem;
+    background-color: rgba(60, 60, 65, 0.7);
+}
+
+fieldset:hover {
+    background-color: rgba(70, 70, 75, 1);
+}
+
+input[type="text"], input[type="date"], select, textarea {
+    justify-content: center;
+    justify-items: center;
+    width: 25%;
+    padding: .25rem;
+    margin: 0 0 1.5rem 0;
+}
